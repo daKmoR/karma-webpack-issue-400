@@ -1,0 +1,21 @@
+{
+  "name": "bare-bone",
+  "license": "MIT",
+  "scripts": {
+    "start": "owc-dev-server --open src",
+    "test": "karma start",
+    "test:watch": "karma start --auto-watch=true --single-run=false",
+    "test:es5": "karma start karma.es5.config.js",
+    "test:es5:watch": "karma start karma.es5.config.js --auto-watch=true --single-run=false"
+  },
+  "dependencies": {
+    "lit-html": "^1.0.0",
+    "lit-element": "^2.0.1"
+  },
+  "devDependencies": {
+    "@open-wc/testing": "^0.9.0",
+    "@open-wc/testing-karma": "^0.4.0",
+    "owc-dev-server": "^0.1.2",
+    "webpack-merge": "^4.1.5"
+  }
+}
